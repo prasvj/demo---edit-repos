@@ -1,0 +1,47 @@
+.repoBox{
+    border:1px solid gray;
+    color: #000;
+    background-color: #fff;
+    font-size: 12px;
+    width: 216px;
+    border-radius: 2px;
+    padding: 5px;
+    margin: 5px;
+    min-height: 150px;
+}
+
+body{
+    overflow-y: scroll;
+       }
+
+.repoBox input[type='text']{
+    width: 97%;
+    margin: 4px;
+    padding: 3px;
+}
+
+.repoBox p{
+    word-break: break-word;
+}
+
+.editBtn{
+    border:1px solid gray;
+    color: #000;
+    background-color: #fff;
+    font-size: 12px;
+    border-radius: 2px;
+    margin: 0px 5px;
+}
+
+.saveBtn, .cancelBtn{
+    border:1px solid gray;
+    color: #000;
+    background-color: #fff;
+    font-size: 12px;
+    border-radius: 2px;
+    margin: 0px 5px;
+}
+
+#savedData{
+    display: none;
+}
